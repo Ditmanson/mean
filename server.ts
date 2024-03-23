@@ -19,6 +19,7 @@ export function app(): express.Express {
   // Create a new instance of CommonEngine for SSR
   const commonEngine = new CommonEngine();
 
+
   // Set the view engine and views directory for Express
   server.set('view engine', 'html');
   server.set('views', browserDistFolder);
